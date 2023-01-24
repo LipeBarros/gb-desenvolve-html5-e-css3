@@ -1,2 +1,9 @@
-# gb-desenvolve-html5-e-css3
-HTML5 e CSS3 partes 1,2,3 e 4 Grupo Boticário / Alura
+# HTML5 e CSS3
+## Programa Deselvolve Grupo Boticário e Alura
+
+### Parte 1
+- Aprenda o que é o HTML e o CSS
+- Entenda a estrutura básica de um arquivo HTML
+- Utilize o navegador para inspecionar elementos
+- Aprenda a definir estilos para elementos usando o CSS
+- Desenvolva um página Web

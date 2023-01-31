@@ -126,7 +126,7 @@ form legend {
   font-size: 18px;
   border: none;
   border-radius: 5px;
-  transition: 1s;
+  transition: 1s all;
   cursor: pointer;
 }
 

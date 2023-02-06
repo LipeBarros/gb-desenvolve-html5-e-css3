@@ -1,3 +1,7 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 header {
   background: #bbbbbb;
   padding: 20px;
@@ -156,7 +160,6 @@ th {
 .banner {
   width: 100%;
 }
-
 
 .titulo-principal {
   text-align: center;

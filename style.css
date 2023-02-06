@@ -161,6 +161,7 @@ th {
   font-size: 2em;
   margin: 0 0 1em;
   clear: left;
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .principal {
@@ -233,6 +234,12 @@ th {
 
 .imagemBeneficios {
   width: 60%;
+  opacity: 1;
+  transition: 400ms;
+}
+
+.imagemBeneficios:hover {
+  opacity: 0.3;
 }
 
 .video {
@@ -240,7 +247,7 @@ th {
   margin: 2em auto;
 }
 
-/*exemplos de seletores avançados*/
+/*exemplos de seletores avançados
 
 main>p {
   background: red
@@ -253,3 +260,8 @@ img+p {
 img~p {
   background: yellow;
 }
+
+main p:not(#missao){
+
+}
+*/

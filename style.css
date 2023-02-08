@@ -4,7 +4,7 @@ body {
 
 header {
   background: #bbbbbb;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .caixa {
@@ -161,11 +161,11 @@ th {
   font-size: 2em;
   margin: 0 0 1em;
   clear: left;
-  color: rgba(0, 0, 0, 0.3);
+  /*color: rgba(0, 0, 0, 0.3); exemplo de opacidade*/
 }
 
 .principal {
-  margin: 0 0 1em;
+  padding: 3em 0;
   background: #fefefe;
   width: 940px;
   margin: 0 auto;
@@ -236,6 +236,7 @@ th {
   width: 60%;
   opacity: 1;
   transition: 400ms;
+  box-shadow: 10px 10px 10px 0 #000000;
 }
 
 .imagemBeneficios:hover {
@@ -265,3 +266,43 @@ main p:not(#missao){
 
 }
 */
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+  .caixa,
+  .principal,
+  .conteudo-beneficios,
+  .mapa-conteudo,
+  .video {
+    width: auto;
+  }
+
+  .principal,
+  .beneficios {
+    padding: 3em 1em;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+  }
+
+  .lista-beneficios {
+    margin-bottom: 2em;
+  }
+
+  .lista-beneficios,
+  .imagemBeneficios {
+    width: 100%;
+  }
+
+}

@@ -105,10 +105,14 @@ form legend {
   margin: 0 0 10px;
 }
 
+fieldset {
+  margin-bottom: 2em;
+}
+
 .input-padrao {
   display: block;
   margin: 0 0 20px;
-  padding: 10px 25px;
+  padding: 10px;
   width: 50%;
 }
 
@@ -302,6 +306,15 @@ main p:not(#missao){
 
   .lista-beneficios,
   .imagemBeneficios {
+    width: 100%;
+  }
+
+  .input-padrao {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .enviar {
     width: 100%;
   }
 

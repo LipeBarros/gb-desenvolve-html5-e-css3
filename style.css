@@ -283,7 +283,8 @@ main p:not(#missao){
   .principal,
   .conteudo-beneficios,
   .mapa-conteudo,
-  .video {
+  .video,
+  .produtos {
     width: auto;
   }
 
@@ -316,6 +317,14 @@ main p:not(#missao){
 
   .enviar {
     width: 100%;
+  }
+
+  .produtos li {
+    display: block;
+    width: auto;
+    margin: 0 1em 1em;
+    box-sizing: border-box;
+
   }
 
 }
